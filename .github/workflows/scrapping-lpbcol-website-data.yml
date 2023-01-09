@@ -3,8 +3,7 @@ name: Scrape Lpbcol website
 on:
   workflow_dispatch:
   repository_dispatch:
-    types:
-      -webhook
+    types: -webhook
   schedule:
     - cron: "0 0 * * *"
 
@@ -16,15 +15,15 @@ jobs:
         with:
           fetch-depth: 0
       - uses: actions/setup-node@v3
-        with: 
+        with:
           node-version: 19
       - uses: pnpm/action-setup@v2
         with:
           version: 7.23.0
+          run_install: true
       - run: |
           node scraping/leaderboard.js
           git config user.name lpbcol-bot
           git add -A
           git commit -m "[🤖 bot] Update lpbcol database"
           git push origin main
-        
