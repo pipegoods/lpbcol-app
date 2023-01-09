@@ -8,6 +8,7 @@
     "dev:api": "wrangler dev",
     "publish:api": "wrangler publish",
     "format": "prettier --write .",
+    "scrape": "node --no-warnings scraping/leaderboard.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
