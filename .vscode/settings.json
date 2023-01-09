@@ -1,0 +1,8 @@
+{
+  "cSpell.language": "es-ES,es,en-GB,en-US",
+  "cSpell.words": ["leaderboard"],
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
+}
