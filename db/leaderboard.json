@@ -1,0 +1,34 @@
+[
+  {
+    "shortName": "TIG",
+    "fullName": "Tigres de Cartagena",
+    "wins": 28,
+    "losses": 14,
+    "winPercentage": 0.667,
+    "gamesBehind": 0
+  },
+  {
+    "shortName": "VAQ",
+    "fullName": "Vaqueros de Monteria",
+    "wins": 27,
+    "losses": 15,
+    "winPercentage": 0.643,
+    "gamesBehind": 1
+  },
+  {
+    "shortName": "CAI",
+    "fullName": "Caimanes de Barranquilla",
+    "wins": 23,
+    "losses": 19,
+    "winPercentage": 0.548,
+    "gamesBehind": 5
+  },
+  {
+    "shortName": "TRS",
+    "fullName": "Toros de Sincelejo",
+    "wins": 6,
+    "losses": 36,
+    "winPercentage": 0.143,
+    "gamesBehind": 22
+  }
+]
