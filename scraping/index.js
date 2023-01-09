@@ -1,22 +1,11 @@
-import * as cheerio from 'cheerio'
-import { writeFile, readFile } from 'node:fs/promises'
-import path from 'node:path'
-
-const BD_PATH = path.join(process.cwd(), 'db')
-const TEAMS = await readFile(`${BD_PATH}/teams.json`, 'utf-8').then(JSON.parse)
+import { writeDBFile, TEAMS } from '../db'
+import { cleanText } from '../utils/cleanText'
+import { scrape } from '../utils/scrape'
 
 const URLS = {
   leaderboard:
     'https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/standings'
 }
-
-const scrape = async (url) => {
-  const response = await fetch(url)
-  const html = await response.text()
-  return cheerio.load(html)
-}
-
-const cleanText = text => text.replace(/\t\|\n|\s+/g, ' ')
 
 const getLeaderBoard = async () => {
   const $ = await scrape(URLS.leaderboard)
@@ -26,7 +15,9 @@ const getLeaderBoard = async () => {
 
   $rows.each((index, element) => {
     if (index === 0) return
-    const [id] = cleanText($(element).find('.team-name').text()).trim().split(' ')
+    const [id] = cleanText($(element).find('.team-name').text())
+      .trim()
+      .split(' ')
 
     const rowStatistics = $(element).find('.text-center')
 
@@ -35,7 +26,7 @@ const getLeaderBoard = async () => {
     const rowWinPercentage = Number($(rowStatistics[4]).text())
     const rowGamesBehind = Number($(rowStatistics[5]).text())
 
-    const team = TEAMS.find(team => team.id === id)
+    const team = TEAMS.find((team) => team.id === id)
 
     leaderboard.push({
       team,
@@ -51,4 +42,4 @@ const getLeaderBoard = async () => {
 
 const leaderboard = await getLeaderBoard()
 
-await writeFile(`${BD_PATH}/leaderboard.json`, JSON.stringify(leaderboard, null, 2), 'utf-8')
+await writeDBFile('leaderboard', leaderboard)
