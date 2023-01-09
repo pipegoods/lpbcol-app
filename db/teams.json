@@ -1,0 +1,32 @@
+[
+    {
+        "id": "TIG",
+        "name": "Tigres de Cartagena",
+        "image": "https://lpbcol.pipegoods.workers.dev/static/logos/tigres.jpg",
+        "socialNetworks": [
+            "https://twitter.com/tigresdectg"
+        ]
+    },
+    {
+        "id": "VAQ",
+        "name": "Vaqueros de Monteria",
+        "image": "https://lpbcol.pipegoods.workers.dev/static/logos/vaqueros.jpg",
+        "socialNetworks": [
+            "https://twitter.com/vaquerosdemont1"
+        ]
+    },
+    {
+        "id": "CAI",
+        "name": "Caimanes de Barranquilla",
+        "image": "https://lpbcol.pipegoods.workers.dev/static/logos/caimanes.jpg",
+        "socialNetworks": [
+            "https://twitter.com/caimanesLPB"
+        ]
+    },
+    {
+        "id": "TRS",
+        "name": "Toros de Sincelejo",
+        "image": "https://lpbcol.pipegoods.workers.dev/static/logos/toros.jpg",
+        "socialNetworks": []
+    }
+]

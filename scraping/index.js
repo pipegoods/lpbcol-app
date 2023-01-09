@@ -1,6 +1,9 @@
 import * as cheerio from 'cheerio'
-import { writeFile } from 'node:fs/promises'
+import { writeFile, readFile } from 'node:fs/promises'
 import path from 'node:path'
+
+const BD_PATH = path.join(process.cwd(), 'db')
+const TEAMS = await readFile(`${BD_PATH}/teams.json`, 'utf-8').then(JSON.parse)
 
 const URLS = {
   leaderboard:
@@ -23,8 +26,7 @@ const getLeaderBoard = async () => {
 
   $rows.each((index, element) => {
     if (index === 0) return
-    const [shortName] = cleanText($(element).find('.team-name').text()).trim().split(' ')
-    const fullName = $(element).find('.team-name small').text()
+    const [id] = cleanText($(element).find('.team-name').text()).trim().split(' ')
 
     const rowStatistics = $(element).find('.text-center')
 
@@ -33,9 +35,10 @@ const getLeaderBoard = async () => {
     const rowWinPercentage = Number($(rowStatistics[4]).text())
     const rowGamesBehind = Number($(rowStatistics[5]).text())
 
+    const team = TEAMS.find(team => team.id === id)
+
     leaderboard.push({
-      shortName,
-      fullName,
+      team,
       wins: rowWins,
       losses: rowLosses,
       winPercentage: rowWinPercentage,
@@ -47,6 +50,5 @@ const getLeaderBoard = async () => {
 }
 
 const leaderboard = await getLeaderBoard()
-const filePath = path.join(process.cwd(), 'db', 'leaderboard.json')
 
-await writeFile(filePath, JSON.stringify(leaderboard, null, 2), 'utf-8')
+await writeFile(`${BD_PATH}/leaderboard.json`, JSON.stringify(leaderboard, null, 2), 'utf-8')
