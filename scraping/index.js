@@ -1,6 +1,6 @@
-import { writeDBFile, TEAMS } from '../db'
-import { cleanText } from '../utils/cleanText'
-import { scrape } from '../utils/scrape'
+import { writeDBFile, TEAMS } from '../db/index.js'
+import { cleanText } from '../utils/cleanText.js'
+import { scrape } from '../utils/scrape.js'
 
 const URLS = {
   leaderboard:
