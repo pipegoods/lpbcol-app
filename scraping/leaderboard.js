@@ -18,7 +18,6 @@ const getLeaderBoard = async () => {
     const [id] = cleanText($(element).find('.team-name').text())
       .trim()
       .split(' ')
-      .toLowerCase()
 
     const rowStatistics = $(element).find('.text-center')
 
@@ -27,7 +26,7 @@ const getLeaderBoard = async () => {
     const rowWinPercentage = Number($(rowStatistics[4]).text())
     const rowGamesBehind = Number($(rowStatistics[5]).text())
 
-    const team = TEAMS.find((team) => team.id === id)
+    const team = TEAMS.find((team) => team.id === id.toLowerCase())
 
     leaderboard.push({
       team,
