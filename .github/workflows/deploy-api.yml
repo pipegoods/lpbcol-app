@@ -19,5 +19,7 @@ jobs:
         with:
           version: 7.23.0
           run_install: true
-      - run: |
-          npm run publish:api
+      - name: Publish
+        uses: cloudflare/wrangler-action@2.0.0
+        with:
+          apiToken: ${{ secrets.CF_API_TOKEN }}

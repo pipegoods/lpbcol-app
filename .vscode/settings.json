@@ -5,5 +5,9 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
+  },
+  "yaml.schemas": {
+    "file:///Users/pipegoods/.vscode/extensions/atlassian.atlascode-2.9.1/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml",
+    "https://json.schemastore.org/github-workflow.json": "file:///Users/pipegoods/Desktop/coding/lpbcol/.github/workflows/deploy.yml"
   }
 }
