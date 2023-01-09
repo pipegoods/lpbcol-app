@@ -1,0 +1,23 @@
+name: Deploy APO to Cloudflare workers
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 19
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 7.23.0
+          run_install: true
+      - run: |
+          npm run publish:api
