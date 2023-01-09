@@ -1,0 +1,56 @@
+[
+  {
+    "team": {
+      "id": "TIG",
+      "name": "Tigres de Cartagena",
+      "image": "https://lpbcol.pipegoods.workers.dev/static/logos/tigres.jpg",
+      "socialNetworks": [
+        "https://twitter.com/tigresdectg"
+      ]
+    },
+    "wins": 28,
+    "losses": 14,
+    "winPercentage": 0.667,
+    "gamesBehind": 0
+  },
+  {
+    "team": {
+      "id": "VAQ",
+      "name": "Vaqueros de Monteria",
+      "image": "https://lpbcol.pipegoods.workers.dev/static/logos/vaqueros.jpg",
+      "socialNetworks": [
+        "https://twitter.com/vaquerosdemont1"
+      ]
+    },
+    "wins": 27,
+    "losses": 15,
+    "winPercentage": 0.643,
+    "gamesBehind": 1
+  },
+  {
+    "team": {
+      "id": "CAI",
+      "name": "Caimanes de Barranquilla",
+      "image": "https://lpbcol.pipegoods.workers.dev/static/logos/caimanes.jpg",
+      "socialNetworks": [
+        "https://twitter.com/caimanesLPB"
+      ]
+    },
+    "wins": 23,
+    "losses": 19,
+    "winPercentage": 0.548,
+    "gamesBehind": 5
+  },
+  {
+    "team": {
+      "id": "TRS",
+      "name": "Toros de Sincelejo",
+      "image": "https://lpbcol.pipegoods.workers.dev/static/logos/toros.jpg",
+      "socialNetworks": []
+    },
+    "wins": 6,
+    "losses": 36,
+    "winPercentage": 0.143,
+    "gamesBehind": 22
+  }
+]
