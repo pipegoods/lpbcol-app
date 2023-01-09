@@ -1,6 +1,6 @@
 {
   "cSpell.language": "es-ES,es,en-GB,en-US",
-  "cSpell.words": ["leaderboard"],
+  "cSpell.words": ["leaderboard", "lpbcol", "Lpbcol"],
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.codeActionsOnSave": {
