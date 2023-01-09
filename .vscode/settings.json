@@ -2,6 +2,7 @@
   "cSpell.language": "es-ES,es,en-GB,en-US",
   "cSpell.words": ["leaderboard"],
   "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   }
