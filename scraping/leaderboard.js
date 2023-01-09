@@ -18,6 +18,7 @@ const getLeaderBoard = async () => {
     const [id] = cleanText($(element).find('.team-name').text())
       .trim()
       .split(' ')
+      .toLowerCase()
 
     const rowStatistics = $(element).find('.text-center')
 
