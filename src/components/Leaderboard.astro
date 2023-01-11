@@ -8,39 +8,51 @@ interface Props {
 const { leaderboard } = Astro.props
 ---
 
-<div class="relative overflow-x-auto shadow-md sm:rounded-lg">
-  <table class="w-full text-xs text-left text-black bg-slate-200">
+<div class="relative overflow-x-auto shadow-md rounded-lg px-5">
+  <table class="w-full text-xs md:text-left text-black bg-slate-200">
     <thead>
       <tr>
         <th
-          class="px-4 py-2 font-medium tracking-wider text-left text-gray-500 uppercase bg-gray-100 border-b border-gray-200"
+          class="px-4 py-2 font-medium tracking-wider md:text-left text-gray-500 uppercase bg-gray-100 border-b border-gray-200 text-center"
         >
           #
         </th>
         <th
-          class="px-4 py-2 font-medium tracking-wider text-left text-gray-500 uppercase bg-gray-100 border-b border-gray-200"
+          class="px-4 py-2 font-medium tracking-wider md:text-left text-gray-500 uppercase bg-gray-100 border-b border-gray-200 text-center"
         >
           Equipo
         </th>
         <th
-          class="px-4 py-2 font-medium tracking-wider text-left text-gray-500 uppercase bg-gray-100 border-b border-gray-200"
+          class="hidden md:table-cell px-4 py-2 font-medium tracking-wider md:text-left text-gray-500 uppercase bg-gray-100 border-b border-gray-200 text-center"
         >
           Victorias
         </th>
         <th
-          class="px-4 py-2 font-medium tracking-wider text-left text-gray-500 uppercase bg-gray-100 border-b border-gray-200"
+          title="Victorias"
+          class="table-cell md:hidden px-4 py-2 font-medium tracking-wider md:text-left text-gray-500 uppercase bg-gray-100 border-b border-gray-200 text-center"
+        >
+          V
+        </th>
+        <th
+          class="hidden md:table-cell px-4 py-2 font-medium tracking-wider md:text-left text-gray-500 uppercase bg-gray-100 border-b border-gray-200 text-center"
         >
           Derrotas
         </th>
         <th
+          title="Derrotas"
+          class="table-cell md:hidden px-4 py-2 font-medium tracking-wider md:text-left text-gray-500 uppercase bg-gray-100 border-b border-gray-200 text-center"
+        >
+          D
+        </th>
+        <th
           title="Porcentaje de victoria"
-          class="px-4 py-2 font-medium tracking-wider text-left text-gray-500 uppercase bg-gray-100 border-b border-gray-200"
+          class="px-4 py-2 font-medium tracking-wider md:text-left text-gray-500 uppercase bg-gray-100 border-b border-gray-200 text-center"
         >
           PCT
         </th>
         <th
           title="Puntos por detras del primer lugar"
-          class="px-4 py-2 font-medium tracking-wider text-left text-gray-500 uppercase bg-gray-100 border-b border-gray-200"
+          class="px-4 py-2 font-medium tracking-wider md:text-left text-gray-500 uppercase bg-gray-100 border-b border-gray-200 text-center"
         >
           GB
         </th>
@@ -49,7 +61,7 @@ const { leaderboard } = Astro.props
     <tbody>
       {
         leaderboard.map((rank, index) => (
-          <tr class="border-b border-gray-200">
+          <tr class="odd:bg-white even:bg-slate-100 border-b text-base hover:bg-slate-300">
             <td class="px-4 py-2 text-sm font-medium text-gray-900">
               {index + 1}
             </td>
@@ -59,18 +71,19 @@ const { leaderboard } = Astro.props
                 alt={`Logo de ${rank.team.name}`}
                 class="w-9 h-auto rounded-full"
               />{' '}
-              {rank.team.name}
+              <span class="hidden md:block">{rank.team.name}</span>
+              <span class="block md:hidden">{rank.team.id.toUpperCase()}</span>
             </td>
-            <td class="px-4 py-2 text-sm font-medium text-gray-900">
+            <td class="px-4 py-2 text-sm font-medium text-gray-900 text-center md:text-left">
               {rank.wins}
             </td>
-            <td class="px-4 py-2 text-sm font-medium text-gray-900">
+            <td class="px-4 py-2 text-sm font-medium text-gray-900 text-center md:text-left">
               {rank.losses}
             </td>
-            <td class="px-4 py-2 text-sm font-medium text-gray-900">
+            <td class="px-4 py-2 text-sm font-medium text-gray-900 text-center md:text-left">
               {rank.winPercentage}
             </td>
-            <td class="px-4 py-2 text-sm font-medium text-gray-900">
+            <td class="px-4 py-2 text-sm font-medium text-gray-900 text-center md:text-left">
               {rank.gamesBehind}
             </td>
           </tr>
