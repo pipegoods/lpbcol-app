@@ -1,8 +1,9 @@
 ---
-const { title } = Astro.props
-
 import Footer from '@components/Footer.astro'
 import { getAllTeams } from '../services/team'
+import SEO from 'simple-astro-seo'
+
+const { title } = Astro.props
 
 const teams = await getAllTeams()
 ---
@@ -14,6 +15,15 @@ const teams = await getAllTeams()
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
     <title>{title} | lpbcol 2022 - 2023</title>
+    <SEO
+      image="/banner.png"
+      title={title}
+      description="Liga profesional de béisbol colombiano 2022 - 2023"
+      siteName="lpbcol 2022 - 2023"
+      url="https://lpbcol-app.vercel.app/"
+      pageType="sports"
+      twitterHandle="pipegoods"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" /><link
       rel="preconnect"
       href="https://fonts.gstatic.com"
