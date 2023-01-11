@@ -65,14 +65,18 @@ const { leaderboard } = Astro.props
             <td class="px-4 py-2 text-sm font-medium text-gray-900">
               {index + 1}
             </td>
-            <td class="px-4 py-2 text-sm font-medium text-gray-900 flex gap-2">
-              <img
-                src={rank.team.image}
-                alt={`Logo de ${rank.team.name}`}
-                class="w-9 h-auto rounded-full"
-              />{' '}
-              <span class="hidden md:block">{rank.team.name}</span>
-              <span class="block md:hidden">{rank.team.id.toUpperCase()}</span>
+            <td class="px-4 py-2 text-sm font-medium text-gray-900 ">
+              <a class="flex gap-2" href={`/team/${rank.team.id}`}>
+                <img
+                  src={rank.team.image}
+                  alt={`Logo de ${rank.team.name}`}
+                  class="w-9 h-auto rounded-full"
+                />{' '}
+                <span class="hidden md:block">{rank.team.name}</span>
+                <span class="block md:hidden">
+                  {rank.team.id.toUpperCase()}
+                </span>
+              </a>
             </td>
             <td class="px-4 py-2 text-sm font-medium text-gray-900 text-center md:text-left">
               {rank.wins}
