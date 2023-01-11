@@ -48,11 +48,18 @@ const { players } = Astro.props
             </td>
             <td class="px-4 py-2 text-sm font-medium text-gray-900">
               <a
-                class="hover:underline"
+                class="hover:underline flex gap-2 items-center"
                 href={player.urlPlayer}
                 target="_blank"
               >
-                {player.name}{' '}
+                {player.image && (
+                  <img
+                    src={player.image}
+                    alt={`Foto de ${player.name}`}
+                    class="w-16 h-auto"
+                  />
+                )}{' '}
+                {player.name}
               </a>
             </td>
             <td class="px-4 py-2 text-sm font-medium text-gray-900">

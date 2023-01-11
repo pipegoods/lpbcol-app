@@ -15,4 +15,5 @@ export interface IPlayer {
   weight: number
   birthDate: string
   urlPlayer: string
+  image?: string
 }
