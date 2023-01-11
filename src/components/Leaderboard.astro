@@ -1,0 +1,81 @@
+---
+import { ILeaderboard } from '@models/ILeaderboard'
+
+interface Props {
+  leaderboard: ILeaderboard[]
+}
+
+const { leaderboard } = Astro.props
+---
+
+<div class="relative overflow-x-auto shadow-md sm:rounded-lg">
+  <table class="w-full text-xs text-left text-black bg-slate-200">
+    <thead>
+      <tr>
+        <th
+          class="px-4 py-2 font-medium tracking-wider text-left text-gray-500 uppercase bg-gray-100 border-b border-gray-200"
+        >
+          #
+        </th>
+        <th
+          class="px-4 py-2 font-medium tracking-wider text-left text-gray-500 uppercase bg-gray-100 border-b border-gray-200"
+        >
+          Equipo
+        </th>
+        <th
+          class="px-4 py-2 font-medium tracking-wider text-left text-gray-500 uppercase bg-gray-100 border-b border-gray-200"
+        >
+          Victorias
+        </th>
+        <th
+          class="px-4 py-2 font-medium tracking-wider text-left text-gray-500 uppercase bg-gray-100 border-b border-gray-200"
+        >
+          Derrotas
+        </th>
+        <th
+          title="Porcentaje de victoria"
+          class="px-4 py-2 font-medium tracking-wider text-left text-gray-500 uppercase bg-gray-100 border-b border-gray-200"
+        >
+          PCT
+        </th>
+        <th
+          title="Puntos por detras del primer lugar"
+          class="px-4 py-2 font-medium tracking-wider text-left text-gray-500 uppercase bg-gray-100 border-b border-gray-200"
+        >
+          GB
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      {
+        leaderboard.map((rank, index) => (
+          <tr class="border-b border-gray-200">
+            <td class="px-4 py-2 text-sm font-medium text-gray-900">
+              {index + 1}
+            </td>
+            <td class="px-4 py-2 text-sm font-medium text-gray-900 flex gap-2">
+              <img
+                src={rank.team.image}
+                alt={`Logo de ${rank.team.name}`}
+                class="w-9 h-auto rounded-full"
+              />{' '}
+              {rank.team.name}
+            </td>
+            <td class="px-4 py-2 text-sm font-medium text-gray-900">
+              {rank.wins}
+            </td>
+            <td class="px-4 py-2 text-sm font-medium text-gray-900">
+              {rank.losses}
+            </td>
+            <td class="px-4 py-2 text-sm font-medium text-gray-900">
+              {rank.winPercentage}
+            </td>
+            <td class="px-4 py-2 text-sm font-medium text-gray-900">
+              {rank.gamesBehind}
+            </td>
+          </tr>
+        ))
+      }
+    </tbody>
+  </table>
+</div>

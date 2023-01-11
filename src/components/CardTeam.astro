@@ -1,0 +1,31 @@
+---
+const { team } = Astro.props
+---
+
+<article
+  class="bg-white font-semibold text-center rounded-3xl border shadow-lg p-10 max-w-xs"
+>
+  <img
+    class="mb-3 w-32 h-32 rounded-full shadow-lg mx-auto"
+    src={team.image}
+    alt={`Logo del equipo ${team.name}`}
+  />
+  <h1 class="text-lg text-gray-700">{team.id}</h1>
+  <h3 class="text-sm text-gray-400">{team.name}</h3>
+  <p class="text-xs text-gray-400 mt-4">
+    {
+      team.socialNetworks.map((social) => {
+        return (
+          <a href={social} target="_blank" rel="noreferrer">
+            {social}
+          </a>
+        )
+      })
+    }
+  </p>
+  <a
+    href={`/team/${team.id}`}
+    class="bg-indigo-600 px-8 py-2 mt-8 rounded-3xl text-gray-100 font-semibold uppercase tracking-wide"
+    >Ver más</a
+  >
+</article>

@@ -1,5 +1,10 @@
 ---
 const { title } = Astro.props
+
+import Footer from '@components/Footer.astro'
+import { getAllTeams } from '../services/team'
+
+const teams = await getAllTeams()
 ---
 
 <html lang="es">
@@ -8,9 +13,35 @@ const { title } = Astro.props
     <link rel="icon" type="image/png" href="/favicon.png" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
-    <title>{title}</title>
+    <title>{title} | lpbcol 2022 - 2023</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" /><link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    /><link
+      href="https://fonts.googleapis.com/css2?family=Viga&display=swap"
+      rel="stylesheet"
+    />
+    {
+      teams.map(({ image }) => (
+        <link
+          href={image}
+          rel="preload"
+          type="image/png"
+          as="image"
+          fetchpriority="high"
+          crossorigin
+        />
+      ))
+    }
   </head>
-  <body>
-    <slot />
+  <body
+    class="min-h-screen grid place-content-center overflow-x-hidden bg-gradient-to-r from-[#1c273b] to-[#1a4089] text-white"
+  >
+    <main class="container mx-auto">
+      <slot />
+    </main>
+
+    <Footer />
   </body>
 </html>

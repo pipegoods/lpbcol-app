@@ -1,21 +1,46 @@
 ---
+import Leaderboard from '@components/Leaderboard.astro'
 import Layout from '../layout/Layout.astro'
+import { getAllTeams } from '../services/team'
+import { getLeaderboard } from '../services/leaderboard'
 
-const response = await fetch('https://lpbcol.pipegoods.workers.dev/teams')
-const teams = await response.json()
+const teams = await getAllTeams()
+const leaderboard = await getLeaderboard()
 ---
 
-<Layout title="Home">
-  <h1>Home</h1>
+<Layout title="Inicio">
+  <div class="mt-5">
+    <div
+      class="md:w-[724px] lg:w-[884px] md:rounded-full md:m-auto md:border-white md:border-2 md:p-2 px-0 text-center"
+    >
+      <h1 class="text-4xl font-viga mt-2">
+        Liga de béisbol profesional colombiano <br /> 2022-2023 🇨🇴
+      </h1>
+      <ul
+        class="flex items-center justify-center rounded-x md:gap-x-4 [&>li>a:hover]:contrast-150 w-full"
+      >
+        {
+          teams.map((team) => (
+            <li>
+              <a href={`/team/${team.id}`}>
+                <img
+                  class="h-auto w-24"
+                  src={team.image}
+                  alt={`Logo de ${team.name}`}
+                  fetchpriority="high"
+                  width="128"
+                  height="128"
+                  decoding="async"
+                />
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
 
-  <ul>
-    {
-      teams.map((team) => (
-        <li>
-          <a href={team.id}>{team.name}</a>
-          <img src={team.image} alt={`Logo de ${team.name}`} />
-        </li>
-      ))
-    }
-  </ul>
+    <div class="my-10">
+      <Leaderboard leaderboard={leaderboard} />
+    </div>
+  </div>
 </Layout>

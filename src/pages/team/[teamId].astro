@@ -1,0 +1,23 @@
+---
+import Layout from 'src/layout/Layout.astro'
+import { getAllTeams } from '../../services/team'
+
+const { id, name, image, socialNetworks } = Astro.props
+
+export async function getStaticPaths() {
+  const teams = await getAllTeams()
+
+  return teams.map((team) => ({
+    params: { teamId: team.id },
+    props: { ...team }
+  }))
+}
+---
+
+<Layout title={name}>
+  <main>
+    <h1>Team {id}</h1>
+    <p>Team {name} is a great team!</p>
+    <img src={image} />
+  </main>
+</Layout>
