@@ -9,6 +9,7 @@
     "publish:api": "wrangler publish",
     "format": "prettier --write .",
     "scrape": "node --no-warnings scraping/leaderboard.js",
+    "scrape:semifinal": "node --no-warnings scraping/semifinal.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "astro dev",
     "start": "astro dev",
