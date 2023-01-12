@@ -1,14 +1,14 @@
 ---
-import { ILeaderboard } from '@models/ILeaderboard'
+import { ISemifinal } from '@models/ILeaderboard'
 
 interface Props {
-  leaderboard: ILeaderboard[]
+  semifinal: ISemifinal[]
 }
 
-const { leaderboard } = Astro.props
+const { semifinal } = Astro.props
 ---
 
-<div class="relative overflow-x-auto shadow-md rounded-lg">
+<div class="relative overflow-x-auto shadow-md rounded-lg max-w-md">
   <table class="w-full text-xs md:text-left text-black bg-slate-200">
     <thead>
       <tr>
@@ -50,20 +50,14 @@ const { leaderboard } = Astro.props
         >
           PCT
         </th>
-        <th
-          title="Puntos por detras del primer lugar"
-          class="px-4 py-2 font-medium tracking-wider md:text-left text-gray-500 uppercase bg-gray-100 border-b border-gray-200 text-center"
-        >
-          GB
-        </th>
       </tr>
     </thead>
     <tbody>
       {
-        leaderboard.map((rank, index) => (
+        semifinal.map((rank, index) => (
           <tr class="odd:bg-white even:bg-slate-100 border-b text-base hover:bg-slate-300">
             <td class="px-4 py-2 text-sm font-medium text-gray-900">
-              {index + 1}
+              {index === 0 && '🥈'}
             </td>
             <td class="px-4 py-2 text-sm font-medium text-gray-900 ">
               <a class="flex gap-2" href={`/team/${rank.team.id}`}>
@@ -72,10 +66,7 @@ const { leaderboard } = Astro.props
                   alt={`Logo de ${rank.team.name}`}
                   class="w-9 h-auto rounded-full"
                 />{' '}
-                <span class="hidden md:block">{rank.team.name}</span>
-                <span class="block md:hidden">
-                  {rank.team.id.toUpperCase()}
-                </span>
+                <span>{rank.team.id.toUpperCase()}</span>
               </a>
             </td>
             <td class="px-4 py-2 text-sm font-medium text-gray-900 text-center md:text-left">
@@ -85,10 +76,7 @@ const { leaderboard } = Astro.props
               {rank.losses}
             </td>
             <td class="px-4 py-2 text-sm font-medium text-gray-900 text-center md:text-left">
-              {rank.winPercentage}
-            </td>
-            <td class="px-4 py-2 text-sm font-medium text-gray-900 text-center md:text-left">
-              {rank.gamesBehind}
+              {rank.ptc}
             </td>
           </tr>
         ))

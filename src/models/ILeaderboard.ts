@@ -7,3 +7,10 @@ export interface ILeaderboard {
   winPercentage: number
   gamesBehind: number
 }
+
+export interface ISemifinal {
+  team: ITeam
+  wins: number
+  losses: number
+  ptc: number
+}

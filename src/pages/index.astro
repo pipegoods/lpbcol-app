@@ -2,10 +2,12 @@
 import Leaderboard from '@components/Leaderboard.astro'
 import Layout from '../layout/Layout.astro'
 import { getAllTeams } from '../services/team'
-import { getLeaderboard } from '../services/leaderboard'
+import { getLeaderboard, getSemifinal } from '../services/leaderboard'
+import SemifinalTable from '@components/SemifinalTable.astro'
 
 const teams = await getAllTeams()
 const leaderboard = await getLeaderboard()
+const semifinal = await getSemifinal()
 ---
 
 <Layout title="Inicio">
@@ -16,6 +18,7 @@ const leaderboard = await getLeaderboard()
       <h1 class="text-4xl font-viga mt-2">
         Liga de béisbol profesional colombiano <br /> 2022-2023 🇨🇴
       </h1>
+
       <ul
         class="flex items-center justify-center rounded-x md:gap-x-4 [&>li>a:hover]:contrast-150 w-full"
       >
@@ -39,7 +42,11 @@ const leaderboard = await getLeaderboard()
       </ul>
     </div>
 
-    <div class="my-10">
+    <div class="my-10 px-5">
+      <div class="mb-5">
+        <h2 class="font-semibold">Semifinal</h2>
+        <SemifinalTable semifinal={semifinal} />
+      </div>
       <Leaderboard leaderboard={leaderboard} />
     </div>
   </div>
