@@ -1,4 +1,4 @@
-name: Deploy APO to Cloudflare workers
+name: Deploy API to Cloudflare workers
 
 on:
   push:
