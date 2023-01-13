@@ -16,6 +16,8 @@
 
 > Web application with recent statistics of the Colombian professional baseball league, using scraping. Project made for educational purposes, nor for commercial use.
 
+![Mockup API Web](public/capture.png)
+
 ## API
 
 Url: https://lpbcol.pipegoods.workers.dev/
