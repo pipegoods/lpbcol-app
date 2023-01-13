@@ -21,6 +21,8 @@ const getLeaderBoard = async () => {
 
     const rowStatistics = $(element).find('.text-center')
 
+    if (!Number($(rowStatistics[1]).text())) return
+
     const rowWins = Number($(rowStatistics[1]).text())
     const rowLosses = Number($(rowStatistics[2]).text())
     const rowWinPercentage = Number($(rowStatistics[4]).text())
