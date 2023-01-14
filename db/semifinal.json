@@ -9,8 +9,8 @@
       ]
     },
     "wins": 2,
-    "losses": 0,
-    "ptc": 1
+    "losses": 1,
+    "ptc": 0.667
   },
   {
     "team": {
@@ -21,8 +21,8 @@
         "https://twitter.com/caimanesLPB"
       ]
     },
-    "wins": 0,
+    "wins": 1,
     "losses": 2,
-    "ptc": 0
+    "ptc": 0.333
   }
 ]
