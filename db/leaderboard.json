@@ -2214,562 +2214,6 @@
   },
   {
     "team": {
-      "id": "vaq",
-      "name": "Vaqueros de Monteria",
-      "image": "https://lpbcol.pipegoods.workers.dev/static/logos/vaqueros.png",
-      "socialNetworks": [
-        "https://twitter.com/vaquerosdemont1"
-      ],
-      "players": [
-        {
-          "name": "Acevedo David",
-          "backNumber": 0,
-          "position": "P",
-          "bt": "R/R",
-          "height": 0,
-          "weight": 0,
-          "birthDate": "2002",
-          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/201941"
-        },
-        {
-          "name": "Acuña Rocha Francisco Fernando",
-          "backNumber": 10,
-          "position": "IF",
-          "bt": "R/R",
-          "height": 0,
-          "weight": 0,
-          "birthDate": "2000",
-          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/199858"
-        },
-        {
-          "name": "Angulo Castro Andres Santiago",
-          "backNumber": 2,
-          "position": "C",
-          "bt": "R/R",
-          "height": 155,
-          "weight": 87,
-          "birthDate": "1997",
-          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/199855"
-        },
-        {
-          "name": "Araujo Elvis",
-          "backNumber": 29,
-          "position": "P",
-          "bt": "L/L",
-          "height": 201,
-          "weight": 125,
-          "birthDate": "1991",
-          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/205069"
-        },
-        {
-          "name": "Beltran Mendoza Hugo Mario",
-          "backNumber": 37,
-          "position": "P",
-          "bt": "R/R",
-          "height": 0,
-          "weight": 0,
-          "birthDate": "2000",
-          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/199869"
-        },
-        {
-          "name": "Beras Wander",
-          "backNumber": 34,
-          "position": "P",
-          "bt": "L/L",
-          "height": 183,
-          "weight": 90,
-          "birthDate": "1988",
-          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/203389"
-        },
-        {
-          "name": "Buelvas Durango Brayan David",
-          "backNumber": 12,
-          "position": "OF",
-          "bt": "R/R",
-          "height": 155,
-          "weight": 76,
-          "birthDate": "2002",
-          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/199862"
-        },
-        {
-          "name": "Burgos Cross Samuel Elias",
-          "backNumber": 30,
-          "position": "P",
-          "bt": "R/R",
-          "height": 0,
-          "weight": 0,
-          "birthDate": "1999",
-          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/199878"
-        },
-        {
-          "name": "Carrillo Briceno Francisco Javier",
-          "backNumber": 0,
-          "position": "P",
-          "bt": "R/R",
-          "height": 0,
-          "weight": 0,
-          "birthDate": "1990",
-          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/204940"
-        },
-        {
-          "name": "Correa Jesus David",
-          "backNumber": 55,
-          "position": "OF",
-          "bt": "R/R",
-          "height": 0,
-          "weight": 0,
-          "birthDate": "2004",
-          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/199995"
-        },
-        {
-          "name": "De Avila Borja Carlos Ignacio",
-          "backNumber": 35,
-          "position": "P",
-          "bt": "R/R",
-          "height": 156,
-          "weight": 85,
-          "birthDate": "2000",
-          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/199872"
-        },
-        {
-          "name": "Diaz Lara Carlos Mario",
-          "backNumber": 18,
-          "position": "P",
-          "bt": "L/L",
-          "height": 0,
-          "weight": 0,
-          "birthDate": "1993",
-          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/199870"
-        },
-        {
-          "name": "Diaz Sandoval Jordan David",
-          "backNumber": 13,
-          "position": "IF",
-          "bt": "R/R",
-          "height": 180,
-          "weight": 77,
-          "birthDate": "2000",
-          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/199856"
-        },
-        {
-          "name": "Encarnacion J.c.",
-          "backNumber": 1,
-          "position": "OF",
-          "bt": "R/R",
-          "height": 0,
-          "weight": 0,
-          "birthDate": "1988",
-          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/199863"
-        },
-        {
-          "name": "Frias Serrano Dayan De Jesus",
-          "backNumber": 0,
-          "position": "IF",
-          "bt": "S/R",
-          "height": 173,
-          "weight": 80,
-          "birthDate": "2002",
-          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/203725"
-        },
-        {
-          "name": "Galindo Naar Ruben Antonio",
-          "backNumber": 24,
-          "position": "P",
-          "bt": "R/R",
-          "height": 186,
-          "weight": 88,
-          "birthDate": "2001",
-          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/199867"
-        },
-        {
-          "name": "Garcia Willy",
-          "backNumber": 0,
-          "position": "UTL",
-          "bt": "R/R",
-          "height": 189,
-          "weight": 100,
-          "birthDate": "1992",
-          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/200569"
-        },
-        {
-          "name": "Gomez Alejandro",
-          "backNumber": 6,
-          "position": "OF",
-          "bt": "R/R",
-          "height": 0,
-          "weight": 0,
-          "birthDate": "2001",
-          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/199865"
-        },
-        {
-          "name": "Guerra Yosmany",
-          "backNumber": 0,
-          "position": "IF",
-          "bt": "S/R",
-          "height": 176,
-          "weight": 92,
-          "birthDate": "1983",
-          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/199857"
-        },
-        {
-          "name": "Hernandez Lopez Gabriel Alejandro",
-          "backNumber": 0,
-          "position": "P",
-          "bt": "R/R",
-          "height": 200,
-          "weight": 85,
-          "birthDate": "2002",
-          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/199874"
-        },
-        {
-          "name": "Herrera Carlos Junior",
-          "backNumber": 0,
-          "position": "IF",
-          "bt": "R/R",
-          "height": 0,
-          "weight": 0,
-          "birthDate": "1996",
-          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/204938"
-        },
-        {
-          "name": "Jaraba Lorduy Branlyn Michell",
-          "backNumber": 0,
-          "position": "IF",
-          "bt": "R/R",
-          "height": 188,
-          "weight": 98,
-          "birthDate": "2002",
-          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/199861"
-        },
-        {
-          "name": "Lopez Eduar Rolanny",
-          "backNumber": 86,
-          "position": "P",
-          "bt": "R/R",
-          "height": 0,
-          "weight": 0,
-          "birthDate": "1995",
-          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/200683"
-        },
-        {
-          "name": "Lopez Porfirio",
-          "backNumber": 0,
-          "position": "P",
-          "bt": "L/L",
-          "height": 179,
-          "weight": 90,
-          "birthDate": "1990",
-          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/204194"
-        },
-        {
-          "name": "Manrique Martinez Keiner De Jesus",
-          "backNumber": 0,
-          "position": "OF",
-          "bt": "R/R",
-          "height": 0,
-          "weight": 0,
-          "birthDate": "2002",
-          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/199992"
-        },
-        {
-          "name": "Manzanero Pabel Leandro",
-          "backNumber": 21,
-          "position": "C",
-          "bt": "R/R",
-          "height": 0,
-          "weight": 0,
-          "birthDate": "1996",
-          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/199852"
-        },
-        {
-          "name": "Martinez Jesus Manuel",
-          "backNumber": 18,
-          "position": "OF",
-          "bt": "R/R",
-          "height": 0,
-          "weight": 0,
-          "birthDate": "1995",
-          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/202697"
-        },
-        {
-          "name": "Martinez Mendoza Jorge Enrique",
-          "backNumber": 36,
-          "position": "P",
-          "bt": "R/R",
-          "height": 182,
-          "weight": 81,
-          "birthDate": "2001",
-          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/199868"
-        },
-        {
-          "name": "Mateo Luis",
-          "backNumber": 34,
-          "position": "P",
-          "bt": "R/R",
-          "height": 0,
-          "weight": 0,
-          "birthDate": "1990",
-          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/199880"
-        },
-        {
-          "name": "Mejia Chavez Hernando Javier",
-          "backNumber": 0,
-          "position": "P",
-          "bt": "R/R",
-          "height": 192,
-          "weight": 115,
-          "birthDate": "2000",
-          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/199866"
-        },
-        {
-          "name": "Negrete Samir",
-          "backNumber": 0,
-          "position": "IF",
-          "bt": "R/R",
-          "height": 0,
-          "weight": 0,
-          "birthDate": "1999",
-          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/204190"
-        },
-        {
-          "name": "Ocampo Batista Carlos Alberto",
-          "backNumber": 51,
-          "position": "P",
-          "bt": "R/R",
-          "height": 188,
-          "weight": 83,
-          "birthDate": "1998",
-          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/200862"
-        },
-        {
-          "name": "Ojeda Luis Eduardo",
-          "backNumber": 23,
-          "position": "P",
-          "bt": "R/R",
-          "height": 0,
-          "weight": 0,
-          "birthDate": "1997",
-          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/202082"
-        },
-        {
-          "name": "Olivo Aneury",
-          "backNumber": 0,
-          "position": "P",
-          "bt": "R/R",
-          "height": 0,
-          "weight": 0,
-          "birthDate": "1994",
-          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/199881"
-        },
-        {
-          "name": "Pacheco Luis Carlos",
-          "backNumber": 0,
-          "position": "P",
-          "bt": "R/R",
-          "height": 0,
-          "weight": 0,
-          "birthDate": "1999",
-          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/204939"
-        },
-        {
-          "name": "Peluffo Pardo Jhon Elkin",
-          "backNumber": 97,
-          "position": "P",
-          "bt": "R/R",
-          "height": 192,
-          "weight": 72,
-          "birthDate": "1997",
-          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/199871"
-        },
-        {
-          "name": "Perea Randy",
-          "backNumber": 69,
-          "position": "OF",
-          "bt": "R/R",
-          "height": 0,
-          "weight": 0,
-          "birthDate": "2004",
-          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/199864"
-        },
-        {
-          "name": "Perez Fernando",
-          "backNumber": 0,
-          "position": "P",
-          "bt": "R/R",
-          "height": 0,
-          "weight": 0,
-          "birthDate": "1993",
-          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/204195"
-        },
-        {
-          "name": "Perez Luis",
-          "backNumber": 20,
-          "position": "P",
-          "bt": "R/R",
-          "height": 0,
-          "weight": 0,
-          "birthDate": "2000",
-          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/199873"
-        },
-        {
-          "name": "Pomare Martinez Derwin Dix",
-          "backNumber": 0,
-          "position": "IF",
-          "bt": "R/R",
-          "height": 187,
-          "weight": 96,
-          "birthDate": "1995",
-          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/199859"
-        },
-        {
-          "name": "Puerta Chavez Jorge Luis",
-          "backNumber": 43,
-          "position": "C",
-          "bt": "R/R",
-          "height": 156,
-          "weight": 90,
-          "birthDate": "2001",
-          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/199853"
-        },
-        {
-          "name": "Ramos Agamez Jose Jorge",
-          "backNumber": 25,
-          "position": "IF",
-          "bt": "R/R",
-          "height": 0,
-          "weight": 0,
-          "birthDate": "2002",
-          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/199860"
-        },
-        {
-          "name": "Reyes Diego",
-          "backNumber": 0,
-          "position": "P",
-          "bt": "R/R",
-          "height": 0,
-          "weight": 0,
-          "birthDate": "2001",
-          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/199879"
-        },
-        {
-          "name": "Rhenals Sierra Sammy",
-          "backNumber": 27,
-          "position": "P",
-          "bt": "R/R",
-          "height": 0,
-          "weight": 0,
-          "birthDate": "1999",
-          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/202325"
-        },
-        {
-          "name": "Rodriguez Corrales Reynaldo",
-          "backNumber": 0,
-          "position": "IF",
-          "bt": "R/R",
-          "height": 0,
-          "weight": 0,
-          "birthDate": "1986",
-          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/203726"
-        },
-        {
-          "name": "Rossi Rafael",
-          "backNumber": 0,
-          "position": "IF",
-          "bt": "R/R",
-          "height": 0,
-          "weight": 0,
-          "birthDate": "1999",
-          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/204191"
-        },
-        {
-          "name": "Sandridge Jayven",
-          "backNumber": 0,
-          "position": "P",
-          "bt": "R/R",
-          "height": 0,
-          "weight": 0,
-          "birthDate": "1999",
-          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/199991"
-        },
-        {
-          "name": "Santana Juan Daniel",
-          "backNumber": 82,
-          "position": "IF",
-          "bt": "R/R",
-          "height": 0,
-          "weight": 0,
-          "birthDate": "1994",
-          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/201313"
-        },
-        {
-          "name": "Sepulveda Sarmiento Jesus Alejandro",
-          "backNumber": 0,
-          "position": "OF",
-          "bt": "R/L",
-          "height": 0,
-          "weight": 0,
-          "birthDate": "2001",
-          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/199994"
-        },
-        {
-          "name": "Tineo Marcos",
-          "backNumber": 14,
-          "position": "P",
-          "bt": "R/R",
-          "height": 0,
-          "weight": 0,
-          "birthDate": "1997",
-          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/199876"
-        },
-        {
-          "name": "Valladares Randy",
-          "backNumber": 51,
-          "position": "P",
-          "bt": "R/R",
-          "height": 0,
-          "weight": 0,
-          "birthDate": "1994",
-          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/199877"
-        },
-        {
-          "name": "Vellojin Ramirez Daniel Andres",
-          "backNumber": 15,
-          "position": "C",
-          "bt": "L/R",
-          "height": 0,
-          "weight": 0,
-          "birthDate": "2000",
-          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/199854"
-        },
-        {
-          "name": "Villa Herrera Eduin Alejandro",
-          "backNumber": 85,
-          "position": "P",
-          "bt": "R/R",
-          "height": 0,
-          "weight": 0,
-          "birthDate": "1966",
-          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/199875"
-        },
-        {
-          "name": "Vivas Colmenares Julio Cesar",
-          "backNumber": 11,
-          "position": "P",
-          "bt": "R/R",
-          "height": 0,
-          "weight": 0,
-          "birthDate": "1993",
-          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/205070"
-        }
-      ]
-    },
-    "wins": 2,
-    "losses": 1,
-    "winPercentage": 0.667,
-    "gamesBehind": 0
-  },
-  {
-    "team": {
       "id": "cai",
       "name": "Caimanes de Barranquilla",
       "image": "https://lpbcol.pipegoods.workers.dev/static/logos/caimanes.png",
@@ -3339,9 +2783,565 @@
         }
       ]
     },
-    "wins": 1,
+    "wins": 2,
     "losses": 2,
-    "winPercentage": 0.333,
-    "gamesBehind": 1
+    "winPercentage": 0.5,
+    "gamesBehind": 0
+  },
+  {
+    "team": {
+      "id": "vaq",
+      "name": "Vaqueros de Monteria",
+      "image": "https://lpbcol.pipegoods.workers.dev/static/logos/vaqueros.png",
+      "socialNetworks": [
+        "https://twitter.com/vaquerosdemont1"
+      ],
+      "players": [
+        {
+          "name": "Acevedo David",
+          "backNumber": 0,
+          "position": "P",
+          "bt": "R/R",
+          "height": 0,
+          "weight": 0,
+          "birthDate": "2002",
+          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/201941"
+        },
+        {
+          "name": "Acuña Rocha Francisco Fernando",
+          "backNumber": 10,
+          "position": "IF",
+          "bt": "R/R",
+          "height": 0,
+          "weight": 0,
+          "birthDate": "2000",
+          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/199858"
+        },
+        {
+          "name": "Angulo Castro Andres Santiago",
+          "backNumber": 2,
+          "position": "C",
+          "bt": "R/R",
+          "height": 155,
+          "weight": 87,
+          "birthDate": "1997",
+          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/199855"
+        },
+        {
+          "name": "Araujo Elvis",
+          "backNumber": 29,
+          "position": "P",
+          "bt": "L/L",
+          "height": 201,
+          "weight": 125,
+          "birthDate": "1991",
+          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/205069"
+        },
+        {
+          "name": "Beltran Mendoza Hugo Mario",
+          "backNumber": 37,
+          "position": "P",
+          "bt": "R/R",
+          "height": 0,
+          "weight": 0,
+          "birthDate": "2000",
+          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/199869"
+        },
+        {
+          "name": "Beras Wander",
+          "backNumber": 34,
+          "position": "P",
+          "bt": "L/L",
+          "height": 183,
+          "weight": 90,
+          "birthDate": "1988",
+          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/203389"
+        },
+        {
+          "name": "Buelvas Durango Brayan David",
+          "backNumber": 12,
+          "position": "OF",
+          "bt": "R/R",
+          "height": 155,
+          "weight": 76,
+          "birthDate": "2002",
+          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/199862"
+        },
+        {
+          "name": "Burgos Cross Samuel Elias",
+          "backNumber": 30,
+          "position": "P",
+          "bt": "R/R",
+          "height": 0,
+          "weight": 0,
+          "birthDate": "1999",
+          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/199878"
+        },
+        {
+          "name": "Carrillo Briceno Francisco Javier",
+          "backNumber": 0,
+          "position": "P",
+          "bt": "R/R",
+          "height": 0,
+          "weight": 0,
+          "birthDate": "1990",
+          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/204940"
+        },
+        {
+          "name": "Correa Jesus David",
+          "backNumber": 55,
+          "position": "OF",
+          "bt": "R/R",
+          "height": 0,
+          "weight": 0,
+          "birthDate": "2004",
+          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/199995"
+        },
+        {
+          "name": "De Avila Borja Carlos Ignacio",
+          "backNumber": 35,
+          "position": "P",
+          "bt": "R/R",
+          "height": 156,
+          "weight": 85,
+          "birthDate": "2000",
+          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/199872"
+        },
+        {
+          "name": "Diaz Lara Carlos Mario",
+          "backNumber": 18,
+          "position": "P",
+          "bt": "L/L",
+          "height": 0,
+          "weight": 0,
+          "birthDate": "1993",
+          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/199870"
+        },
+        {
+          "name": "Diaz Sandoval Jordan David",
+          "backNumber": 13,
+          "position": "IF",
+          "bt": "R/R",
+          "height": 180,
+          "weight": 77,
+          "birthDate": "2000",
+          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/199856"
+        },
+        {
+          "name": "Encarnacion J.c.",
+          "backNumber": 1,
+          "position": "OF",
+          "bt": "R/R",
+          "height": 0,
+          "weight": 0,
+          "birthDate": "1988",
+          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/199863"
+        },
+        {
+          "name": "Frias Serrano Dayan De Jesus",
+          "backNumber": 0,
+          "position": "IF",
+          "bt": "S/R",
+          "height": 173,
+          "weight": 80,
+          "birthDate": "2002",
+          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/203725"
+        },
+        {
+          "name": "Galindo Naar Ruben Antonio",
+          "backNumber": 24,
+          "position": "P",
+          "bt": "R/R",
+          "height": 186,
+          "weight": 88,
+          "birthDate": "2001",
+          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/199867"
+        },
+        {
+          "name": "Garcia Willy",
+          "backNumber": 0,
+          "position": "UTL",
+          "bt": "R/R",
+          "height": 189,
+          "weight": 100,
+          "birthDate": "1992",
+          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/200569"
+        },
+        {
+          "name": "Gomez Alejandro",
+          "backNumber": 6,
+          "position": "OF",
+          "bt": "R/R",
+          "height": 0,
+          "weight": 0,
+          "birthDate": "2001",
+          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/199865"
+        },
+        {
+          "name": "Guerra Yosmany",
+          "backNumber": 0,
+          "position": "IF",
+          "bt": "S/R",
+          "height": 176,
+          "weight": 92,
+          "birthDate": "1983",
+          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/199857"
+        },
+        {
+          "name": "Hernandez Lopez Gabriel Alejandro",
+          "backNumber": 0,
+          "position": "P",
+          "bt": "R/R",
+          "height": 200,
+          "weight": 85,
+          "birthDate": "2002",
+          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/199874"
+        },
+        {
+          "name": "Herrera Carlos Junior",
+          "backNumber": 0,
+          "position": "IF",
+          "bt": "R/R",
+          "height": 0,
+          "weight": 0,
+          "birthDate": "1996",
+          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/204938"
+        },
+        {
+          "name": "Jaraba Lorduy Branlyn Michell",
+          "backNumber": 0,
+          "position": "IF",
+          "bt": "R/R",
+          "height": 188,
+          "weight": 98,
+          "birthDate": "2002",
+          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/199861"
+        },
+        {
+          "name": "Lopez Eduar Rolanny",
+          "backNumber": 86,
+          "position": "P",
+          "bt": "R/R",
+          "height": 0,
+          "weight": 0,
+          "birthDate": "1995",
+          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/200683"
+        },
+        {
+          "name": "Lopez Porfirio",
+          "backNumber": 0,
+          "position": "P",
+          "bt": "L/L",
+          "height": 179,
+          "weight": 90,
+          "birthDate": "1990",
+          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/204194"
+        },
+        {
+          "name": "Manrique Martinez Keiner De Jesus",
+          "backNumber": 0,
+          "position": "OF",
+          "bt": "R/R",
+          "height": 0,
+          "weight": 0,
+          "birthDate": "2002",
+          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/199992"
+        },
+        {
+          "name": "Manzanero Pabel Leandro",
+          "backNumber": 21,
+          "position": "C",
+          "bt": "R/R",
+          "height": 0,
+          "weight": 0,
+          "birthDate": "1996",
+          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/199852"
+        },
+        {
+          "name": "Martinez Jesus Manuel",
+          "backNumber": 18,
+          "position": "OF",
+          "bt": "R/R",
+          "height": 0,
+          "weight": 0,
+          "birthDate": "1995",
+          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/202697"
+        },
+        {
+          "name": "Martinez Mendoza Jorge Enrique",
+          "backNumber": 36,
+          "position": "P",
+          "bt": "R/R",
+          "height": 182,
+          "weight": 81,
+          "birthDate": "2001",
+          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/199868"
+        },
+        {
+          "name": "Mateo Luis",
+          "backNumber": 34,
+          "position": "P",
+          "bt": "R/R",
+          "height": 0,
+          "weight": 0,
+          "birthDate": "1990",
+          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/199880"
+        },
+        {
+          "name": "Mejia Chavez Hernando Javier",
+          "backNumber": 0,
+          "position": "P",
+          "bt": "R/R",
+          "height": 192,
+          "weight": 115,
+          "birthDate": "2000",
+          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/199866"
+        },
+        {
+          "name": "Negrete Samir",
+          "backNumber": 0,
+          "position": "IF",
+          "bt": "R/R",
+          "height": 0,
+          "weight": 0,
+          "birthDate": "1999",
+          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/204190"
+        },
+        {
+          "name": "Ocampo Batista Carlos Alberto",
+          "backNumber": 51,
+          "position": "P",
+          "bt": "R/R",
+          "height": 188,
+          "weight": 83,
+          "birthDate": "1998",
+          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/200862"
+        },
+        {
+          "name": "Ojeda Luis Eduardo",
+          "backNumber": 23,
+          "position": "P",
+          "bt": "R/R",
+          "height": 0,
+          "weight": 0,
+          "birthDate": "1997",
+          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/202082"
+        },
+        {
+          "name": "Olivo Aneury",
+          "backNumber": 0,
+          "position": "P",
+          "bt": "R/R",
+          "height": 0,
+          "weight": 0,
+          "birthDate": "1994",
+          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/199881"
+        },
+        {
+          "name": "Pacheco Luis Carlos",
+          "backNumber": 0,
+          "position": "P",
+          "bt": "R/R",
+          "height": 0,
+          "weight": 0,
+          "birthDate": "1999",
+          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/204939"
+        },
+        {
+          "name": "Peluffo Pardo Jhon Elkin",
+          "backNumber": 97,
+          "position": "P",
+          "bt": "R/R",
+          "height": 192,
+          "weight": 72,
+          "birthDate": "1997",
+          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/199871"
+        },
+        {
+          "name": "Perea Randy",
+          "backNumber": 69,
+          "position": "OF",
+          "bt": "R/R",
+          "height": 0,
+          "weight": 0,
+          "birthDate": "2004",
+          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/199864"
+        },
+        {
+          "name": "Perez Fernando",
+          "backNumber": 0,
+          "position": "P",
+          "bt": "R/R",
+          "height": 0,
+          "weight": 0,
+          "birthDate": "1993",
+          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/204195"
+        },
+        {
+          "name": "Perez Luis",
+          "backNumber": 20,
+          "position": "P",
+          "bt": "R/R",
+          "height": 0,
+          "weight": 0,
+          "birthDate": "2000",
+          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/199873"
+        },
+        {
+          "name": "Pomare Martinez Derwin Dix",
+          "backNumber": 0,
+          "position": "IF",
+          "bt": "R/R",
+          "height": 187,
+          "weight": 96,
+          "birthDate": "1995",
+          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/199859"
+        },
+        {
+          "name": "Puerta Chavez Jorge Luis",
+          "backNumber": 43,
+          "position": "C",
+          "bt": "R/R",
+          "height": 156,
+          "weight": 90,
+          "birthDate": "2001",
+          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/199853"
+        },
+        {
+          "name": "Ramos Agamez Jose Jorge",
+          "backNumber": 25,
+          "position": "IF",
+          "bt": "R/R",
+          "height": 0,
+          "weight": 0,
+          "birthDate": "2002",
+          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/199860"
+        },
+        {
+          "name": "Reyes Diego",
+          "backNumber": 0,
+          "position": "P",
+          "bt": "R/R",
+          "height": 0,
+          "weight": 0,
+          "birthDate": "2001",
+          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/199879"
+        },
+        {
+          "name": "Rhenals Sierra Sammy",
+          "backNumber": 27,
+          "position": "P",
+          "bt": "R/R",
+          "height": 0,
+          "weight": 0,
+          "birthDate": "1999",
+          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/202325"
+        },
+        {
+          "name": "Rodriguez Corrales Reynaldo",
+          "backNumber": 0,
+          "position": "IF",
+          "bt": "R/R",
+          "height": 0,
+          "weight": 0,
+          "birthDate": "1986",
+          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/203726"
+        },
+        {
+          "name": "Rossi Rafael",
+          "backNumber": 0,
+          "position": "IF",
+          "bt": "R/R",
+          "height": 0,
+          "weight": 0,
+          "birthDate": "1999",
+          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/204191"
+        },
+        {
+          "name": "Sandridge Jayven",
+          "backNumber": 0,
+          "position": "P",
+          "bt": "R/R",
+          "height": 0,
+          "weight": 0,
+          "birthDate": "1999",
+          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/199991"
+        },
+        {
+          "name": "Santana Juan Daniel",
+          "backNumber": 82,
+          "position": "IF",
+          "bt": "R/R",
+          "height": 0,
+          "weight": 0,
+          "birthDate": "1994",
+          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/201313"
+        },
+        {
+          "name": "Sepulveda Sarmiento Jesus Alejandro",
+          "backNumber": 0,
+          "position": "OF",
+          "bt": "R/L",
+          "height": 0,
+          "weight": 0,
+          "birthDate": "2001",
+          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/199994"
+        },
+        {
+          "name": "Tineo Marcos",
+          "backNumber": 14,
+          "position": "P",
+          "bt": "R/R",
+          "height": 0,
+          "weight": 0,
+          "birthDate": "1997",
+          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/199876"
+        },
+        {
+          "name": "Valladares Randy",
+          "backNumber": 51,
+          "position": "P",
+          "bt": "R/R",
+          "height": 0,
+          "weight": 0,
+          "birthDate": "1994",
+          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/199877"
+        },
+        {
+          "name": "Vellojin Ramirez Daniel Andres",
+          "backNumber": 15,
+          "position": "C",
+          "bt": "L/R",
+          "height": 0,
+          "weight": 0,
+          "birthDate": "2000",
+          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/199854"
+        },
+        {
+          "name": "Villa Herrera Eduin Alejandro",
+          "backNumber": 85,
+          "position": "P",
+          "bt": "R/R",
+          "height": 0,
+          "weight": 0,
+          "birthDate": "1966",
+          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/199875"
+        },
+        {
+          "name": "Vivas Colmenares Julio Cesar",
+          "backNumber": 11,
+          "position": "P",
+          "bt": "R/R",
+          "height": 0,
+          "weight": 0,
+          "birthDate": "1993",
+          "urlPlayer": "https://col.wbsc.org/es/events/2022-liga-profesional-de-beisbol-de-colombia-2022-2023/teams/23243/players/205070"
+        }
+      ]
+    },
+    "wins": 2,
+    "losses": 2,
+    "winPercentage": 0.5,
+    "gamesBehind": 0
   }
 ]
