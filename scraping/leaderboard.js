@@ -15,6 +15,7 @@ const getLeaderBoard = async () => {
 
   $rows.each((index, element) => {
     if (index === 0) return
+    if (index > 4) return
     const [id] = cleanText($(element).find('.team-name').text())
       .trim()
       .split(' ')
