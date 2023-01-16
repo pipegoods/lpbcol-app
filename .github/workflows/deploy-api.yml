@@ -2,7 +2,8 @@ name: Deploy API to Cloudflare workers
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main
 
 jobs:
   deploy:
