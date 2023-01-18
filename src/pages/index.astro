@@ -2,12 +2,14 @@
 import Leaderboard from '@components/Leaderboard.astro'
 import Layout from '../layout/Layout.astro'
 import { getAllTeams } from '../services/team'
-import { getLeaderboard, getSemifinal } from '../services/leaderboard'
+import { getFinal, getLeaderboard, getSemifinal } from '../services/leaderboard'
 import SemifinalTable from '@components/SemifinalTable.astro'
+import TwitterFeed from '@components/TwitterFeed.astro'
 
 const teams = await getAllTeams()
 const leaderboard = await getLeaderboard()
 const semifinal = await getSemifinal()
+const final = await getFinal()
 ---
 
 <Layout title="Inicio">
@@ -43,10 +45,21 @@ const semifinal = await getSemifinal()
     </div>
 
     <div class="my-10 px-5">
-      <div class="mb-5">
-        <h2 class="font-semibold">Semifinal</h2>
-        <SemifinalTable semifinal={semifinal} />
-      </div>
+      <aside class="grid grid-cols-1 md:grid-cols-2 gap-2">
+        <div>
+          <div class="mb-5">
+            <h2 class="font-semibold">Serie final</h2>
+            <SemifinalTable semifinal={final} emoji="🥇" />
+          </div>
+          <div class="mb-5">
+            <h2 class="font-semibold">Semifinal</h2>
+            <SemifinalTable semifinal={semifinal} emoji="🥈" />
+          </div>
+        </div>
+
+        <TwitterFeed />
+      </aside>
+
       <Leaderboard leaderboard={leaderboard} />
     </div>
   </div>

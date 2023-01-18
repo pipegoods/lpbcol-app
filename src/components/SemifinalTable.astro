@@ -3,9 +3,10 @@ import { ISemifinal } from '@models/ILeaderboard'
 
 interface Props {
   semifinal: ISemifinal[]
+  emoji: string
 }
 
-const { semifinal } = Astro.props
+const { semifinal, emoji } = Astro.props
 ---
 
 <div class="relative overflow-x-auto shadow-md rounded-lg max-w-md">
@@ -57,7 +58,7 @@ const { semifinal } = Astro.props
         semifinal.map((rank, index) => (
           <tr class="odd:bg-white even:bg-slate-100 border-b text-base hover:bg-slate-300">
             <td class="px-4 py-2 text-sm font-medium text-gray-900">
-              {index === 0 && '🥈'}
+              {index === 0 && emoji}
             </td>
             <td class="px-4 py-2 text-sm font-medium text-gray-900 ">
               <a class="flex gap-2" href={`/team/${rank.team.id}`}>
