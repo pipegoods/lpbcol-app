@@ -8,9 +8,9 @@
         "https://twitter.com/vaquerosdemont1"
       ]
     },
-    "wins": 3,
-    "losses": 2,
-    "ptc": 0.6
+    "wins": 1,
+    "losses": 1,
+    "ptc": 1
   },
   {
     "team": {
@@ -21,8 +21,8 @@
         "https://twitter.com/caimanesLPB"
       ]
     },
-    "wins": 2,
-    "losses": 3,
-    "ptc": 0.4
+    "wins": 0,
+    "losses": 1,
+    "ptc": 0
   }
 ]
