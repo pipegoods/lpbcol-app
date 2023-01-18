@@ -23,7 +23,7 @@ jobs:
           run_install: true
       - run: |
           npm run scrape
-          npm run scrape:semifinal
+          npm run scrape:final
           git config user.name lpbcol-bot
           git diff --quiet && git diff --staged --quiet || git commit -am "[🤖 bot] Update lpbcol database"
           git push origin main

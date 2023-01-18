@@ -3,6 +3,7 @@ import { serveStatic } from 'hono/serve-static.module'
 import leaderboard from '../db/leaderboard.json'
 import teams from '../db/teams.json'
 import semifinal from '../db/semifinal.json'
+import final from '../db/final.json'
 
 const app = new Hono()
 
@@ -23,6 +24,10 @@ app.get('/', (ctx) => {
     {
       endpoint: '/semifinal',
       description: 'Returns the semifinal stats'
+    },
+    {
+      endpoint: '/final',
+      description: 'Returns the final stats'
     }
   ])
 })
@@ -45,6 +50,10 @@ app.get('/teams/:id', (ctx) => {
 
 app.get('/semifinal', (ctx) => {
   return ctx.json(semifinal)
+})
+
+app.get('/final', (ctx) => {
+  return ctx.json(final)
 })
 
 app.get('/static/*', serveStatic({ root: './' }))
