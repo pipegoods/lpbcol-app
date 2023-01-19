@@ -1,6 +1,8 @@
 name: Deploy API to Cloudflare workers
 
 on:
+  repository_dispatch:
+    types: -webhook
   push:
     branches:
       - main
