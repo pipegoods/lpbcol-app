@@ -4,25 +4,21 @@
       "id": "vaq",
       "name": "Vaqueros de Monteria",
       "image": "https://lpbcol.pipegoods.workers.dev/static/logos/vaqueros.png",
-      "socialNetworks": [
-        "https://twitter.com/vaquerosdemont1"
-      ]
+      "socialNetworks": ["https://twitter.com/vaquerosdemont1"]
     },
-    "wins": 1,
-    "losses": 1,
-    "ptc": 1
+    "wins": 3,
+    "losses": 2,
+    "ptc": 0.6
   },
   {
     "team": {
       "id": "cai",
       "name": "Caimanes de Barranquilla",
       "image": "https://lpbcol.pipegoods.workers.dev/static/logos/caimanes.png",
-      "socialNetworks": [
-        "https://twitter.com/caimanesLPB"
-      ]
+      "socialNetworks": ["https://twitter.com/caimanesLPB"]
     },
-    "wins": 0,
-    "losses": 1,
-    "ptc": 0
+    "wins": 2,
+    "losses": 3,
+    "ptc": 0.4
   }
 ]
