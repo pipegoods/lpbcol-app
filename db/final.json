@@ -1,6 +1,19 @@
 [
   {
     "team": {
+      "id": "vaq",
+      "name": "Vaqueros de Monteria",
+      "image": "https://lpbcol.pipegoods.workers.dev/static/logos/vaqueros.png",
+      "socialNetworks": [
+        "https://twitter.com/vaquerosdemont1"
+      ]
+    },
+    "wins": 2,
+    "losses": 1,
+    "ptc": 0.667
+  },
+  {
+    "team": {
       "id": "tig",
       "name": "Tigres de Cartagena",
       "image": "https://lpbcol.pipegoods.workers.dev/static/logos/tigres.png",
@@ -9,20 +22,7 @@
       ]
     },
     "wins": 1,
-    "losses": 1,
-    "ptc": 0.5
-  },
-  {
-    "team": {
-      "id": "vaq",
-      "name": "Vaqueros de Monteria",
-      "image": "https://lpbcol.pipegoods.workers.dev/static/logos/vaqueros.png",
-      "socialNetworks": [
-        "https://twitter.com/vaquerosdemont1"
-      ]
-    },
-    "wins": 1,
-    "losses": 1,
-    "ptc": 0.5
+    "losses": 12,
+    "ptc": 0.333
   }
 ]
