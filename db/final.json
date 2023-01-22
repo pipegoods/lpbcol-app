@@ -4,9 +4,7 @@
       "id": "vaq",
       "name": "Vaqueros de Monteria",
       "image": "https://lpbcol.pipegoods.workers.dev/static/logos/vaqueros.png",
-      "socialNetworks": [
-        "https://twitter.com/vaquerosdemont1"
-      ]
+      "socialNetworks": ["https://twitter.com/vaquerosdemont1"]
     },
     "wins": 2,
     "losses": 1,
@@ -17,12 +15,10 @@
       "id": "tig",
       "name": "Tigres de Cartagena",
       "image": "https://lpbcol.pipegoods.workers.dev/static/logos/tigres.png",
-      "socialNetworks": [
-        "https://twitter.com/tigresdectg"
-      ]
+      "socialNetworks": ["https://twitter.com/tigresdectg"]
     },
     "wins": 1,
-    "losses": 12,
+    "losses": 2,
     "ptc": 0.333
   }
 ]
