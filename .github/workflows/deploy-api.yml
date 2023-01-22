@@ -8,10 +8,10 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-22.04
-    timeout-minutes: 5
-    if: github.repository_owner == 'pipegoods'
     steps:
       - uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GI_TOKEN }}
       - uses: actions/setup-node@v3
         with:
           node-version: 19
