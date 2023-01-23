@@ -8,9 +8,9 @@
         "https://twitter.com/vaquerosdemont1"
       ]
     },
-    "wins": 3,
+    "wins": 4,
     "losses": 1,
-    "ptc": 0.75
+    "ptc": 0.8
   },
   {
     "team": {
@@ -22,7 +22,7 @@
       ]
     },
     "wins": 1,
-    "losses": 3,
-    "ptc": 0.25
+    "losses": 4,
+    "ptc": 0.2
   }
 ]
